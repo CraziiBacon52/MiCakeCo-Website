@@ -27,7 +27,7 @@ body{
   color:white;
   margin-top:0px;
   margin-bottom:0px;
-  padding-top:40px;
+  padding-top:60px;
   padding-bottom:10px; !important
 }
 .aboutUs{
@@ -57,4 +57,17 @@ body{
 }
 .homeButton{
   background-color:#f7f9fc;
+}
+.callUs{
+  background-image:url("https://image.freepik.com/fotos-gratis/cupcake-de-aniversario-com-coracao-doce-forma-de-marshmallow-contra-fundo-azul_7186-300.jpg");
+}
+.callText{
+  margin-bottom:100px;
+  margin-top:100px;
+  font-size:px;
+  color:black;
+  margin-left:75px;
+}
+.div1{
+  background-color:black;
 }
