@@ -1,7 +1,7 @@
 .title{
   padding:20px;
   padding-left:75px;
-  padding-top:40px;
+  padding-top:20px;
   background-color:pink;
   font-family:monospace;
 }
@@ -19,4 +19,42 @@
 
 body{
   background-image:url("http://blog.visme.co/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-045.jpg");
+}
+.homepage{
+  position:relative;
+  text-align:right;
+  text-align:center;
+  color:white;
+  margin-top:0px;
+  margin-bottom:0px;
+  padding-top:40px;
+  padding-bottom:10px; !important
+}
+.aboutUs{
+  margin-bottom:0px;
+  position:relative;
+  float:right;
+  padding-right:270px;
+  padding-left:530px;
+  padding-top:40px;
+  background:black;
+  padding-bottom:75px;
+  color:white
+}
+.img1{
+  display:block;
+  margin:0 auto;
+}
+
+.homepage2{
+  margin-top:0px;
+  text-align:center;
+  color:black;
+  margin-bottom:10px;
+}
+.background1{
+    background-image:url("https://wallpaper-house.com/data/out/9/wallpaper2you_353822.jpg");
+}
+.homeButton{
+  background-color:#f7f9fc;
 }

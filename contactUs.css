@@ -7,3 +7,63 @@
   text-align:center
 
 }
+.columns{
+  position:relative;
+  text-align:center;
+  padding-top:40px;
+}
+.titleForContacts{
+  position:relative;
+  text-align:right;
+  background-color:#41454c;
+  text-align:center;
+  margin-top:40px;
+  margin-right:400px;
+  margin-left:400px;
+  color:white;
+  margin-bottom:0px;
+
+}
+body{
+  background-image:url("https://wallpapermemory.com/uploads/788/cake-background-laptop-244562.jpg");
+}
+.contacts{
+  position:relative;
+  text-align:right;
+  background-color:#41454c;
+  text-align:center;
+  margin-right:400px;
+  margin-left:400px;
+  color:white;
+  margin-bottom:0px;
+}
+.email{
+  position:relative;
+  text-align:right;
+  background-color:#41454c;
+  text-align:center;
+  margin-right:400px;
+  margin-left:400px;
+  color:white;
+  margin-top:0px;
+  margin-bottom:0px;
+}
+.textOrCall{
+  position:relative;
+  text-align:right;
+  background-color:#41454c;
+  text-align:center;
+  margin-right:400px;
+  margin-left:400px;
+  color:white;
+  margin-top:0px;
+  margin-bottom:0px;
+}
+.br1{
+  margin-right:400px;
+  margin-left:400px;
+  background-color:#41454c;
+}
+.homeButton{
+  background-color:#f7f9fc;
+}
