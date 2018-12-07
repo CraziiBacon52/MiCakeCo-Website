@@ -1,47 +1,70 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-  <link rel="stylesheet" href="stylesheets.css">
-  <title>MiCakeCo</title>
+    <link rel="icon" src="favicon.png" href="file:///Users/taylor/Desktop/mireyaLogo.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="stylesheets.css">
+    <title>MiCakeCo Homepage</title>
+    <style>
+    /*  */
+  body {font-family: 'Raleway', sans-serif;}
+  .thin {font-weight:100;font-family: 'Raleway', sans-serif;}
+  h1 { font-size:44px; font-weight:600;font-family: 'Raleway', sans-serif;}
+  h2 {font-size:33px; font-weight:600;font-family: 'Raleway', sans-serif;}
+  h3 {font-size:22px; font-weight:600;font-family: 'Raleway', sans-serif;}
+  h4, h5 {font-weight:800;font-family: 'Raleway', sans-serif;}
+  .bold, strong  {font-weight:600;font-family: 'Raleway', sans-serif;}
+  .extrabold {font-weight:800;font-family: 'Raleway', sans-serif;}
+  .ultrabold {font-weight:900;font-family: 'Raleway', sans-serif;}
+    </style>
 </head>
 <body>
 
-<!--Nav Bar--><link rel="icon"
-      type="favicon.png"
-      href="file:///Users/taylor/Desktop/fotos/favicon.png">
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">MiCakeCo</a>
-    <img src="http://www.eatlogos.com/Entertainment_logos/png/vector_cake_food_logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+  <!--Nav Bar--><link rel="icon">
+  <link rel="icon" src="favicon.png" href="file:///Users/taylor/Desktop/mireyaLogo.png">
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <div class="homeButton">
-          <a class="nav-link" href="file:///Users/taylor/Documents/MiCakeCo-Website/index.html#">Home<span class="sr-only">(current)</span></a>
-        </div>
-        </li>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="file:///Users/taylor/Documents/MiCakeCo-Website/cakes.html">Cakes</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="file:///Users/taylor/Documents/MiCakeCo-Website/contactUs.html">Contact Us</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="file:///Users/taylor/Documents/MiCakeCo-Website/otherDesserts.html">Other Desserts</a>
-        </li>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">MiCakeCo</a>
+      <img src="file:///Users/taylor/Desktop/mireyaLogo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+
+          <li class="nav-item">
+            <div class="homeButton">
+            <a class="nav-link" href="file:///Users/taylor/Documents/MiCakeCo-Website/index.html#"><span class="sr-only">(current)</span></a>
           </div>
-      </ul>
-    </div>
-  </nav>
-<!--end nav bar-->
+          </li>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="file:///Users/taylor/Documents/MiCakeCo-Website/cakes.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="file:///Users/taylor/Documents/MiCakeCo-Website/cakes.html">Cakes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="file:///Users/taylor/Documents/MiCakeCo-Website/contactUs.html">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="file:///Users/taylor/Documents/MiCakeCo-Website/otherDesserts.html">Other Desserts</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="file:///Users/taylor/Documents/MiCakeCo-Website/otherDesserts.html">Proyecto de Español</a>
+          </li>
+            </div>
+        </ul>
+      </div>
+    </nav>
+  <!--end nav bar-->
+
 <!--writing-->
 <div class="background1">
 <div class="back">
+  <br>
+  <br>
 <h1 class="homepage">Celebrate any event with one of MiCakeCo's desserts</h1>
 <h4 class="homepage2">Homemade and handmade treats for every occasion!</h4>
 <!--end writing-->
@@ -92,16 +115,13 @@ img {vertical-align: middle;}
   transition: background-color 0.6s ease;
 }
 
-.active {
-  background-color: #717171;
-}
 
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
+  -webkit-animation-duration: 5.5s;
   animation-name: fade;
-  animation-duration: 1.5s;
+  animation-duration: 5.5s;
 }
 
 @-webkit-keyframes fade {
@@ -171,13 +191,75 @@ function showSlides() {
 </div>
 </div>
 <!--end carousel-->
-<div class="div1">
-  <br>
-  <br>
-</div>
+
 <div class="callUs">
 <br>
 <h1 class="callText">Call or text us for any custom cake or treat!</h1>
+<br>
+
+<div class="photosBack">
+<!--Beautiful photo-->
+<br>
+<br>
+</div>
+</div>
+<div class="imgBack">
+<!--end-->
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 <br>
 </div>
 

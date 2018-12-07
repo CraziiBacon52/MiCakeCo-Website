@@ -1,9 +1,47 @@
 .dessertsTitle{
   padding:20px;
-  padding-left:75px;
   padding-top:40px;
-  background-image: url("https://www.xmple.com/wallpaper/striped-blue-checker-white-gingham-1920x1080-c2-add8e6-ffffff-l-118-a-315-f-12.svg");
-  font-family:serif;
   text-align:center
+}
+.dessertsTitle2{
+  text-align:center;
+  margin-left:75px;
+}
+.center1{
+  text-align:center;
+}
+.imglinks{
+  text-align:center;
+  margin-top:50px;
 
+}
+.dessertNames{
+  text-align:center;
+  font-size:20px;
+  margin-top:0px;
+}
+
+.images{
+  margin-right:0px;
+  margin-left:0px;
+}
+
+.below{
+  background-image:url("https://www.xmple.com/wallpaper/striped-blue-checker-white-gingham-1920x1080-c2-add8e6-ffffff-l-118-a-315-f-12.svg");
+  text-align:center;
+}
+.navbar-brand{
+  font-weight:light;
+  font-family:Raleway;
+}
+.nav-item{
+  font-weight:light;
+  font-family:Raleway;
+
+}
+.col{
+  font-family:Raleway;
+  color:black;
+  font-weight:bolder;
+  font-size:17px;
 }

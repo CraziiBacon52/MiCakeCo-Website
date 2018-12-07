@@ -26,10 +26,12 @@
 }
 body{
   background-image:url("https://wallpapermemory.com/uploads/788/cake-background-laptop-244562.jpg");
+  background-size:100%;
+  background-repeat: no-repeat;
 }
 .contacts{
   position:relative;
-  text-align:right;
+  text-align:left;
   background-color:#41454c;
   text-align:center;
   margin-right:400px;
@@ -66,4 +68,11 @@ body{
 }
 .homeButton{
   background-color:#f7f9fc;
+}
+.images1{
+  text-align:right;
+  margin-top:200px;
+  margin-right:40px;
+  background-size:100%;
+  background-repeat: no-repeat;
 }

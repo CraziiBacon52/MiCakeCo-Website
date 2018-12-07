@@ -1,0 +1,57 @@
+.text1{
+  text-align:center;
+  font-size:50px;
+  padding-bottom:10px;
+}
+.back{
+  background-image:url("https://www.xmple.com/wallpaper/striped-blue-checker-white-gingham-1920x1080-c2-add8e6-ffffff-l-118-a-315-f-12.svg");
+  margin-bottom:0px;
+}
+.thingy{
+  margin-left:30px;
+  margin-bottom:10px;
+}
+
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+}
+
+a:hover {
+    background-color:none;
+
+}
+
+.previous {
+    background-color: #f1f1f1;
+}
+}
+
+.img1{
+  margin-top:10px;
+  margin-bottom:60px;
+}
+.text2{
+  font-size:20px;
+  margin-right:40px;
+}
+.titleForContacts{
+  position:relative;
+  text-align:right;
+  background-color:#41454c;
+  text-align:center;
+  margin-top:40px;
+  margin-right:400px;
+  margin-left:400px;
+  color:white;
+  margin-bottom:0px;
+
+}
+.navbar-brand{
+  font-weight:light;
+  font-family:Raleway;
+  margin-left:-16px;
+  margin-right:0px;
+}

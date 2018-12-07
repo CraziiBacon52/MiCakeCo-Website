@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <link rel="icon" src="favicon.png" href="file:///Users/taylor/Desktop/mireyaLogo.png">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-  <link rel="stylesheet" href="contactUs.css">
+  <link rel="stylesheet" href="profiteroles.css">
+  <link rel="stylesheet" href="customOrder.css">
   <title>Other Desserts</title>
   <style>
   /*  */
@@ -18,7 +20,9 @@ h4, h5 {font-weight:800;font-family: 'Raleway', sans-serif;}
 .ultrabold {font-weight:900;font-family: 'Raleway', sans-serif;}
   </style>
 
+
 </head>
+
 <body>
 
 
@@ -35,7 +39,7 @@ h4, h5 {font-weight:800;font-family: 'Raleway', sans-serif;}
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
 
-          <li class="nav-item active">
+          <li class="nav-item">
             <div class="homeButton">
             <a class="nav-link" href="file:///Users/taylor/Documents/MiCakeCo-Website/index.html#"><span class="sr-only">(current)</span></a>
           </div>
@@ -47,10 +51,10 @@ h4, h5 {font-weight:800;font-family: 'Raleway', sans-serif;}
           <li class="nav-item">
             <a class="nav-link" href="file:///Users/taylor/Documents/MiCakeCo-Website/cakes.html">Cakes</a>
           </li>
-          <li class="nav-item active">
+          <li class="nav-item">
             <a class="nav-link" href="file:///Users/taylor/Documents/MiCakeCo-Website/contactUs.html">Contact Us</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item active">
             <a class="nav-link" href="file:///Users/taylor/Documents/MiCakeCo-Website/otherDesserts.html">Other Desserts</a>
           </li>
             </div>
@@ -59,25 +63,81 @@ h4, h5 {font-weight:800;font-family: 'Raleway', sans-serif;}
     </nav>
   <!--end nav bar-->
 
-<!--<h1 class="titleForContacts">Contact Us!</h2>
-<h5 class="contacts">Contact us for information about cakes, events, or any dessert that you would like!
-                     Please text or email me at:</h5>
-                     <div class="br1">
-                     <br>
-                     </div>
-<h5 class="email">mireyanancy@live.com</h5>
-  <div class="br1">
-    <br>
-  </div>
-<h5 class="textOrCall"><</h5>
-<div class="br1">
+<div class="back">
 <br>
-</div>-->
-<div class="images1"><img src="file:///Users/taylor/Desktop/stuffz.png">
+<div class="thingy">
 
-</body></div>
+  <!--
+  <button type "button" class="btn btn-secondary btn-sm" onclick="goBack()">Back</button>
+-->
+
+<a type "button" class="previous" onclick="goBack()">&#8249;</a>
+
+</div>
+  <script>
+  function goBack() {
+      window.history.back();
+  }
+  </script>
+  <p class="text1">Custom Orders</p>
+</div>
+<br>
+<br>
+<br>
+
+<!--Form3-->
+<p class="p1">Custom Order</p>
+
+
+<br>
+<br>
 
 
 
+<div class="form2">
+  <form action="mailto:mireyanancy@live.com" method="post" enctype="text/plain">
+    Date<br>
+    <input type="text" style="color:#ff8396" name="Date"><br>
+    <br>
+    <form action="mailto:mireyanancy@live.com" method="post" enctype="text/plain">
+    Event<br>
+    <input type="text" style="color:#ff8396" name="Event"><br>
+    <br>
+    <form action="mailto:mireyanancy@live.com" method="post" enctype="text/plain">
+      How Many Guests?<br>
+      <input type="text" style="color:#ff8396" name="Guest Count"><br>
+      <br>
+      <br>
+      <form action="mailto:mireyanancy@live.com" method="post" enctype="text/plain">
+        Are there any desserts visually simillar to the one that you would like? If so, paste in the link<br>
+        <input type="text" style="color:#ff8396" name= "Link"><br>
+        <br>
+        <form action="mailto:mireyanancy@live.com" method="post" enctype="text/plain">
+          What dessert would you like?<br>
+          <input type="text" style="color:#ff8396" name= "Dessert Type"><br>
+          <br>
+          <form action="mailto:mireyanancy@live.com" method="post" enctype="text/plain">
+            If there are any more specifics to you cake, please list them here<br>
+            <input type="text" style="color:#ff8396" name= "Specifics"><br>
+            <br>
 
-</html>
+
+  <input class="btn btn-outline-danger" type="submit" value="Send">
+  <input class="btn btn-outline-danger" type="reset" value="Reset">
+
+</form>
+</div>
+<!--End Form3-->
+
+<br>
+
+<p class="text1>At vero eos et accusamus et iusto odio dignissimos ducimus qui
+   blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et
+   quas molestias excepturi sint occaecati cupiditate non provident, similique
+   sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum
+   fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore,
+    cum soluta nobis est eligendi optio cumque nihil impedit quo minus id.</p>
+
+</body>
+
+</html

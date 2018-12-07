@@ -3,7 +3,6 @@
   padding-left:75px;
   padding-top:20px;
   background-color:pink;
-  font-family:monospace;
 }
 .title2{
   padding-left:100px;
@@ -16,10 +15,10 @@
     margin-left:0;
     margin-right:0;
 }
+ body{
+   background-image:url("file:///Users/taylor/Desktop/Screen%20Shot%202018-08-13%20at%2011.44.23%20AM.png");
+ }
 
-body{
-  background-image:url("http://blog.visme.co/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-045.jpg");
-}
 .homepage{
   position:relative;
   text-align:right;
@@ -53,7 +52,9 @@ body{
   margin-bottom:10px;
 }
 .background1{
-    background-image:url("https://wallpaper-house.com/data/out/9/wallpaper2you_353822.jpg");
+    background-image:url("https://image.freepik.com/free-vector/dripping-blue-paint-on-a-white-wood-background_1048-6143.jpg");
+    background-size:100%;
+    background-repeat: no-repeat;
 }
 .homeButton{
   background-color:#f7f9fc;
@@ -68,6 +69,50 @@ body{
   color:black;
   margin-left:75px;
 }
-.div1{
-  background-color:black;
+.multiPhoto{
+  margin-top:40px;
+  float:left;
+  display:block;
+  margin-right:0px;
+  margin-left:40px;
+}
+
+.multiPhoto1{
+  float:right;
+  margin-top:40px;
+  margin-left:0px;
+  margin-right:40px;
+}
+
+.photosBack{
+  background-image:url("file:///Users/taylor/Desktop/Screen%20Shot%202018-08-13%20at%2011.44.23%20AM.png");
+}
+
+.MireyaImage{
+  text-align:center;
+  margin-top:30px;
+  margin-bottom:50px;
+}
+
+.MireyaImage2{
+  margin-top:30px;
+  margin-bottom:50px;
+  text-align:center;
+}
+.bottomImage{
+  bottom:0px;
+}
+.imgBack{
+  background-image:url("file:///Users/taylor/Desktop/000.png");
+  background-size:100%;
+  background-repeat: no-repeat;
+}
+.navbar-brand{
+  font-weight:light;
+  font-family:Raleway;
+}
+.nav-item{
+  font-weight:light;
+  font-family:Raleway;
+
 }
